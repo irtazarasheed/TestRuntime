@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Silent Music Party</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg">Please enable all permission</string>
+</resources>

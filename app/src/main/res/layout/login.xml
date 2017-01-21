@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="9dp"
+        android:singleLine="true"
+        android:id="@+id/usernametextbox1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/usernametextbox1"
+        android:layout_alignStart="@+id/usernametextbox1"
+        android:layout_marginTop="25dp"
+        android:singleLine="true"
+        android:id="@+id/passwordtextbox1" />
+
+    <Button
+        android:layout_below="@+id/passwordtextbox1"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login2"
+        android:layout_weight="1"
+
+        />
+    <Button
+        android:layout_below="@id/login2"
+        android:text="Forgot Password?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fgpassword1"
+        android:layout_weight="1"
+
+        />
+</RelativeLayout>

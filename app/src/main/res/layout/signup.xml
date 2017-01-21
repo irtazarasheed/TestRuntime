@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/signup">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Email address"
+        android:paddingTop="0.15in"
+        android:textColorHint="#FFFFFF"
+        android:layout_below="@+id/usernametextbox2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/emailtextbox1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:layout_marginTop="1.5in"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+        android:singleLine="true"
+        android:id="@+id/usernametextbox2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPassword"
+        android:paddingTop="0.15in"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/emailtextbox1"
+        android:layout_alignStart="@+id/emailtextbox1"
+        android:layout_marginTop="25dp"
+        android:singleLine="true"
+        android:id="@+id/passwordtextbox2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColorHint="#FFFFFF"
+        android:paddingTop="0.15in"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/passwordtextbox2"
+        android:layout_alignStart="@+id/passwordtextbox2"
+        android:layout_marginTop="25dp"
+        android:singleLine="true"
+        android:id="@+id/cpasswordtextbox1" />
+    <Button
+        android:layout_below="@+id/cpasswordtextbox1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup2"
+        android:layout_weight="1"
+
+        />
+
+
+</RelativeLayout>

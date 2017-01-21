@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/smpwelcome">
+
+    <Button
+        android:layout_marginTop="300dp"
+        android:text="Party Organizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnorganizer1"
+        android:layout_weight="1"
+
+        />
+    <Button
+        android:layout_below="@id/btnorganizer1"
+        android:text="Party Member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnmember1"
+        android:layout_weight="1"
+
+        />
+
+</RelativeLayout>
